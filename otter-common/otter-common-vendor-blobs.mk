@@ -25,5 +25,5 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/otter-common/proprietary/etc/firmware/ti-connectivity/wl127x-fw-4-plt.bin:system/etc/firmware/ti-connectivity/wl127x-fw-4-plt.bin \
     vendor/amazon/otter-common/proprietary/etc/firmware/ti-connectivity/wl127x-fw-4-sr.bin:system/etc/firmware/ti-connectivity/wl127x-fw-4-sr.bin \
     vendor/amazon/otter-common/proprietary/etc/firmware/ti-connectivity/wl1271-nvs_127x.bin:system/etc/firmware/ti-connectivity/wl1271-nvs_127x.bin \
-    vendor/amazon/otter-common/proprietary/etc/firmware/ti-connectivity/TQS_S_2.6.ini:/system/etc/wifi/TQS_S_2.6.ini
+    vendor/amazon/otter-common/proprietary/etc/wifi/TQS_S_2.6.ini:/system/etc/wifi/TQS_S_2.6.ini
 
