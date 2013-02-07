@@ -1,0 +1,117 @@
+# Jem for 43239 USI 4G module
+# $Copyright (C) 2012 Broadcom Corporation$
+# $Id: bcm943239LabJem_USI_4G.txt 2012-09-8 ericen $
+# version 2.0
+
+boardtype=0x5ac
+boardrev=0x1110
+devid=0x4370
+boardflags=0x201
+boardflags2=0
+macaddr=00:90:4c:c5:12:38
+sromrev=9
+ag0=0x2
+ag1=0x2
+ag2=0xff
+ag3=0xff
+txchain=0x3
+rxchain=0x3
+aa2g=3
+aa5g=3
+ccode=XZ
+regrev=22
+ledbh0=0xff
+ledbh1=0xff
+ledbh2=0xff
+ledbh3=0xff
+leddc=0xffff
+pa0itssit=62
+pa1itssit=62
+antswctl2g=0x0
+antswctl5g=0x0
+antswitch=0x0
+#2G Tx power parameters 
+maxp2ga0=78
+maxp2ga1=78
+#cckbw202gpo=0x2222
+#cckbw20ul2gpo=0x2222
+legofdmbw202gpo=0x44444444
+legofdmbw20ul2gpo=0x44444444
+mcsbw202gpo=0x88884444
+mcsbw20ul2gpo=0x88884444
+mcsbw402gpo=0xAAAA8888
+pa2gw0a0=0xFEA4 
+pa2gw1a0=0x181B
+pa2gw2a0=0xFA4E
+pa2gw0a1=0xFE87 
+pa2gw1a1=0x174C
+pa2gw2a1=0xFA65 
+#5G Low band (36-64) Tx power parameters
+maxp5gla0=62
+maxp5gla1=62
+legofdmbw205glpo=0x22220000
+legofdmbw20ul5glpo=0x44442222
+mcsbw205glpo=0x66664444
+mcsbw20ul5glpo=0x88886666
+mcsbw405glpo=0x88886666
+pa5glw0a0=0xFEC8
+pa5glw1a0=0x12E2
+pa5glw2a0=0xFB90
+pa5glw0a1=0xFF9E 
+pa5glw1a1=0x1074
+pa5glw2a1=0xFCCB 
+#5G Mid band (100-140) Tx power parameters
+maxp5ga0=62
+maxp5ga1=62
+legofdmbw205gmpo=0x22220000
+legofdmbw20ul5gmpo=0x44442222
+mcsbw205gmpo=0x66664444
+mcsbw20ul5gmpo=0x88886666
+mcsbw405gmpo=0x88886666
+pa5gw0a0=0xFEEB
+pa5gw1a0=0x11D1
+pa5gw2a0=0xFBEA
+pa5gw0a1=0xFF5B 
+pa5gw1a1=0x118B
+pa5gw2a1=0xFC6D 
+#5G Hi band (149-165) Tx power parameters
+maxp5gha0=62
+maxp5gha1=62
+legofdmbw205ghpo=0x22220000
+legofdmbw20ul5ghpo=0x44442222
+mcsbw205ghpo=0x66664444
+mcsbw20ul5ghpo=0x88886666
+mcsbw405ghpo=0x88886666
+pa5ghw0a0=0xFF39
+pa5ghw1a0=0x11D1
+pa5ghw2a0=0xFC36
+pa5ghw0a1=0xFEDC 
+pa5ghw1a1=0x11A4
+pa5ghw2a1=0xFBD5 
+#Dup Mode
+mcs32po=0x5555
+leg40dup2gpo=0x2
+
+extpagain2g=2
+extpagain5g=2
+pdetrange2g=2
+pdetrange5g=2
+triso2g=4
+triso5g=5
+tssipos2g=1
+tssipos5g=1
+
+itt2ga0=0x20
+itt5ga0=0x3e
+itt2ga1=0x20
+itt5ga1=0x3e
+tempthresh=120
+noisecaloffset=8
+noisecaloffset5g=6
+cckfilttype=0
+muxenab=0x12
+ofdmfilttype=2
+subband5gver=0
+#OTP
+otpimagesize=170
+RAW1=4a f0 ff ff 00 00 20 04 d0 02 e7 a8
