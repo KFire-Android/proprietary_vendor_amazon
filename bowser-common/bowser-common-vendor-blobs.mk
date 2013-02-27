@@ -27,23 +27,6 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/bowser-common/proprietary/etc/wifi/nvram_jem-wan_semco.txt:system/etc/wifi/nvram_jem-wan_semco.txt \
     vendor/amazon/bowser-common/proprietary/etc/wifi/nvram_jem-wan_usi.txt:system/etc/wifi/nvram_jem-wan_usi.txt \
     vendor/amazon/bowser-common/proprietary/etc/wifi/bcmdhd.cal:system/etc/wifi/bcmdhd.cal \
-    vendor/amazon/bowser-common/proprietary/lib/libsmartvolume.so:system/lib/libsmartvolume.so \
-    vendor/amazon/bowser-common/proprietary/vendor/data/ds1-default.xml:system/vendor/data/ds1-default.xml \
-    vendor/amazon/bowser-common/proprietary/vendor/smartvolume/anlg_dock_headset.csv:system/vendor/smartvolume/anlg_dock_headset.csv \
-    vendor/amazon/bowser-common/proprietary/vendor/smartvolume/aux_digital.csv:system/vendor/smartvolume/aux_digital.csv \
-    vendor/amazon/bowser-common/proprietary/vendor/smartvolume/bt_a2dp.csv:system/vendor/smartvolume/bt_a2dp.csv \
-    vendor/amazon/bowser-common/proprietary/vendor/smartvolume/bt_a2dp_headphones.csv:system/vendor/smartvolume/bt_a2dp_headphones.csv \
-    vendor/amazon/bowser-common/proprietary/vendor/smartvolume/bt_a2dp_speaker.csv:system/vendor/smartvolume/bt_a2dp_speaker.csv \
-    vendor/amazon/bowser-common/proprietary/vendor/smartvolume/bt_sco_carkit.csv:system/vendor/smartvolume/bt_sco_carkit.csv \
-    vendor/amazon/bowser-common/proprietary/vendor/smartvolume/bt_sco.csv:system/vendor/smartvolume/bt_sco.csv \
-    vendor/amazon/bowser-common/proprietary/vendor/smartvolume/bt_sco_headset.csv:system/vendor/smartvolume/bt_sco_headset.csv \
-    vendor/amazon/bowser-common/proprietary/vendor/smartvolume/default.csv:system/vendor/smartvolume/default.csv \
-    vendor/amazon/bowser-common/proprietary/vendor/smartvolume/dgtl_dock_headeset.csv:system/vendor/smartvolume/dgtl_dock_headeset.csv \
-    vendor/amazon/bowser-common/proprietary/vendor/smartvolume/earpiece.csv:system/vendor/smartvolume/earpiece.csv \
-    vendor/amazon/bowser-common/proprietary/vendor/smartvolume/fm_radio_tx.csv:system/vendor/smartvolume/fm_radio_tx.csv \
-    vendor/amazon/bowser-common/proprietary/vendor/smartvolume/speaker.csv:system/vendor/smartvolume/speaker.csv \
-    vendor/amazon/bowser-common/proprietary/vendor/smartvolume/wired_headphone.csv:system/vendor/smartvolume/wired_headphone.csv \
-    vendor/amazon/bowser-common/proprietary/vendor/smartvolume/wired_headset.csv:system/vendor/smartvolume/wired_headset.csv \
     vendor/amazon/bowser-common/proprietary/vendor/bin/camera_dcc:system/vendor/bin/camera_dcc \
     vendor/amazon/bowser-common/proprietary/vendor/camera/R01_MVEN002_LD0_ND0_IR0_SH0_FL0_SVEN002_DCCID46/cid44_OV9726_alg_3a_ae_mms2_dcc.bin:system/vendor/camera/R01_MVEN002_LD0_ND0_IR0_SH0_FL0_SVEN002_DCCID46/cid44_OV9726_alg_3a_ae_mms2_dcc.bin \
     vendor/amazon/bowser-common/proprietary/vendor/camera/R01_MVEN002_LD0_ND0_IR0_SH0_FL0_SVEN002_DCCID46/cid44_OV9726_alg_3a_af_affw_dcc.bin:system/vendor/camera/R01_MVEN002_LD0_ND0_IR0_SH0_FL0_SVEN002_DCCID46/cid44_OV9726_alg_3a_af_affw_dcc.bin \
