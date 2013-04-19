@@ -16,8 +16,8 @@
 
 PRODUCT_COPY_FILES += \
     vendor/amazon/jem/proprietary/bin/brcm_patchram_plus:system/bin/brcm_patchram_plus \
-    vendor/amazon/jem/proprietary/etc/bluetooth/BCM2076_20MHZ.HCD:system/etc/bluetooth/BCM2076_20MHZ.HCD \
-    vendor/amazon/jem/proprietary/etc/bluetooth/BCM2076_26MHZ.HCD:system/etc/bluetooth/BCM2076_26MHZ.HCD \
+    vendor/amazon/jem/proprietary/vendor/firmware/bcm2076_20mhz.hcd:system/vendor/firmware/bcm2076_20mhz.hcd \
+    vendor/amazon/jem/proprietary/vendor/firmware/bcm2076_26mhz.hcd:system/vendor/firmware/bcm2076_26mhz.hcd \
     vendor/amazon/jem/proprietary/lib/hw/sensors.omap4.so:system/lib/hw/sensors.omap4.so \
     vendor/amazon/jem/proprietary/lib/libinvensense_hal.so:system/lib/libinvensense_hal.so \
     vendor/amazon/jem/proprietary/lib/libmllite.so:system/lib/libmllite.so \
