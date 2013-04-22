@@ -16,8 +16,7 @@
 
 PRODUCT_COPY_FILES += \
     vendor/amazon/tate/proprietary/bin/brcm_patchram_plus:system/bin/brcm_patchram_plus \
-    vendor/amazon/tate/proprietary/etc/bluetooth/BCM2076_20MHZ.HCD:system/etc/bluetooth/BCM2076_20MHZ.HCD \
-    vendor/amazon/tate/proprietary/etc/bluetooth/BCM2076_26MHZ.HCD:system/etc/bluetooth/BCM2076_26MHZ.HCD \
+    vendor/amazon/jem/proprietary/vendor/firmware/bcm2076_20mhz.hcd:system/vendor/firmware/bcm2076_20mhz.hcd \
     vendor/amazon/tate/proprietary/bin/atmel_touch.sh:system/bin/atmel_touch.sh \
     vendor/amazon/tate/proprietary/bin/start_smc.sh:system/bin/start_smc.sh \
     vendor/amazon/tate/proprietary/lib/hw/sensors.omap4.so:system/lib/hw/sensors.omap4.so \
