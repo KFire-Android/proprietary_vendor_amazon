@@ -27,6 +27,9 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/bowser-common/proprietary/etc/wifi/nvram_jem-wan_semco.txt:system/etc/wifi/nvram_jem-wan_semco.txt \
     vendor/amazon/bowser-common/proprietary/etc/wifi/nvram_jem-wan_usi.txt:system/etc/wifi/nvram_jem-wan_usi.txt \
     vendor/amazon/bowser-common/proprietary/etc/wifi/bcmdhd.cal:system/etc/wifi/bcmdhd.cal \
+    vendor/amazon/bowser-common/proprietary/lib/libddp_omx.so:system/lib/libddp_omx.so \
+    vendor/amazon/bowser-common/proprietary/lib/libstagefright_soft_ddpdec.so:system/lib/libstagefright_soft_ddpdec.so \
+    vendor/amazon/bowser-common/proprietary/lib/soundfx/libdolbysurroundeffect.so:system/lib/soundfx/libdolbysurroundeffect.so \
     vendor/amazon/bowser-common/proprietary/vendor/bin/camera_dcc:system/vendor/bin/camera_dcc \
     vendor/amazon/bowser-common/proprietary/vendor/camera/R01_MVEN002_LD0_ND0_IR0_SH0_FL0_SVEN002_DCCID46/cid44_OV9726_alg_3a_ae_mms2_dcc.bin:system/vendor/camera/R01_MVEN002_LD0_ND0_IR0_SH0_FL0_SVEN002_DCCID46/cid44_OV9726_alg_3a_ae_mms2_dcc.bin \
     vendor/amazon/bowser-common/proprietary/vendor/camera/R01_MVEN002_LD0_ND0_IR0_SH0_FL0_SVEN002_DCCID46/cid44_OV9726_alg_3a_af_affw_dcc.bin:system/vendor/camera/R01_MVEN002_LD0_ND0_IR0_SH0_FL0_SVEN002_DCCID46/cid44_OV9726_alg_3a_af_affw_dcc.bin \
