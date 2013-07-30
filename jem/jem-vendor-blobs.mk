@@ -16,7 +16,9 @@
 
 PRODUCT_COPY_FILES += \
     vendor/amazon/jem/proprietary/bin/brcm_patchram_plus:system/bin/brcm_patchram_plus \
-    vendor/amazon/jem/proprietary/vendor/firmware/bcm2076_20mhz.hcd:system/vendor/firmware/bcm2076_20mhz.hcd \
+    vendor/amazon/jem/proprietary/bin/wan_fwupdate:system/bin/wan_fwupdate \
+    vendor/amazon/jem/proprietary/bin/wankit:system/bin/wankit \
+    vendor/amazon/jem/proprietary/bin/wan_savelog:system/bin/wan_savelog \
     vendor/amazon/jem/proprietary/lib/hw/sensors.omap4.so:system/lib/hw/sensors.omap4.so \
     vendor/amazon/jem/proprietary/lib/libinvensense_hal.so:system/lib/libinvensense_hal.so \
     vendor/amazon/jem/proprietary/lib/libmllite.so:system/lib/libmllite.so \
@@ -82,3 +84,10 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/jem/proprietary/vendor/camera/R01_MVEN002_LD0_ND0_IR0_SH0_FL0_SVEN002_DCCID46/cid44_OV9726_vnf_cfg_dcc.bin:system/vendor/camera/R01_MVEN002_LD0_ND0_IR0_SH0_FL0_SVEN002_DCCID46/cid44_OV9726_vnf_cfg_dcc.bin \
     vendor/amazon/jem/proprietary/vendor/camera/R01_MVEN002_LD0_ND0_IR0_SH0_FL0_SVEN002_DCCID46/cid65535_kgen_dcc_preflash.bin:system/vendor/camera/R01_MVEN002_LD0_ND0_IR0_SH0_FL0_SVEN002_DCCID46/cid65535_kgen_dcc_preflash.bin
 
+ifeq ($(TARGET_DEVICE),jemlte)
+PRODUCT_COPY_FILES += \
+    vendor/amazon/jem/proprietary/vendor/firmware/bcm2076_26mhz.hcd:system/vendor/firmware/bcm2076_26mhz.hcd
+else
+PRODUCT_COPY_FILES += \
+    vendor/amazon/jem/proprietary/vendor/firmware/bcm2076_20mhz.hcd:system/vendor/firmware/bcm2076_20mhz.hcd
+endif
