@@ -19,11 +19,6 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/jem/proprietary/bin/wan_fwupdate:system/bin/wan_fwupdate \
     vendor/amazon/jem/proprietary/bin/wankit:system/bin/wankit \
     vendor/amazon/jem/proprietary/bin/wan_savelog:system/bin/wan_savelog \
-    vendor/amazon/jem/proprietary/lib/hw/sensors.omap4.so:system/lib/hw/sensors.omap4.so \
-    vendor/amazon/jem/proprietary/lib/libinvensense_hal.so:system/lib/libinvensense_hal.so \
-    vendor/amazon/jem/proprietary/lib/libmllite.so:system/lib/libmllite.so \
-    vendor/amazon/jem/proprietary/lib/libmlplatform.so:system/lib/libmlplatform.so \
-    vendor/amazon/jem/proprietary/lib/libmplmpu.so:system/lib/libmplmpu.so \
     vendor/amazon/jem/proprietary/lib/libril-lab126qmi.so:system/lib/libril-lab126qmi.so \
     vendor/amazon/jem/proprietary/vendor/etc/smc_normal_world_android_cfg.ini:system/vendor/etc/smc_normal_world_android_cfg.ini \
     vendor/amazon/jem/proprietary/vendor/firmware/ducati-m3.bin:system/vendor/firmware/ducati-m3.bin \
