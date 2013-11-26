@@ -18,28 +18,6 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/omap4-common/proprietary/vendor/lib/hw/gralloc.omap4470.so:/system/vendor/lib/hw/gralloc.omap4470.so \
     vendor/amazon/omap4-common/proprietary/vendor/lib/hw/gralloc.omap4460.so:/system/vendor/lib/hw/gralloc.omap4460.so \
     vendor/amazon/omap4-common/proprietary/vendor/lib/hw/gralloc.omap4430.so:/system/vendor/lib/hw/gralloc.omap4430.so \
-    vendor/amazon/omap4-common/proprietary/vendor/lib/egl/libEGL_POWERVR_SGX540_120.so:/system/vendor/lib/egl/libEGL_POWERVR_SGX540_120.so \
-    vendor/amazon/omap4-common/proprietary/vendor/lib/egl/libEGL_POWERVR_SGX544_112.so:/system/vendor/lib/egl/libEGL_POWERVR_SGX544_112.so \
-    vendor/amazon/omap4-common/proprietary/vendor/lib/egl/libGLESv1_CM_POWERVR_SGX540_120.so:/system/vendor/lib/egl/libGLESv1_CM_POWERVR_SGX540_120.so \
-    vendor/amazon/omap4-common/proprietary/vendor/lib/egl/libGLESv2_POWERVR_SGX540_120.so:/system/vendor/lib/egl/libGLESv2_POWERVR_SGX540_120.so \
-    vendor/amazon/omap4-common/proprietary/vendor/lib/egl/libGLESv1_CM_POWERVR_SGX544_112.so:/system/vendor/lib/egl/libGLESv1_CM_POWERVR_SGX544_112.so \
-    vendor/amazon/omap4-common/proprietary/vendor/lib/egl/libGLESv2_POWERVR_SGX544_112.so:/system/vendor/lib/egl/libGLESv2_POWERVR_SGX544_112.so \
-    vendor/amazon/omap4-common/proprietary/vendor/lib/libglslcompiler_SGX540_120.so:/system/vendor/lib/libglslcompiler_SGX540_120.so \
-    vendor/amazon/omap4-common/proprietary/vendor/lib/libglslcompiler_SGX544_112.so:/system/vendor/lib/libglslcompiler_SGX544_112.so \
-    vendor/amazon/omap4-common/proprietary/vendor/lib/libIMGegl_SGX540_120.so:/system/vendor/lib/libIMGegl_SGX540_120.so \
-    vendor/amazon/omap4-common/proprietary/vendor/lib/libIMGegl_SGX544_112.so:/system/vendor/lib/libIMGegl_SGX544_112.so \
-    vendor/amazon/omap4-common/proprietary/vendor/lib/libpvr2d_SGX540_120.so:/system/vendor/lib/libpvr2d_SGX540_120.so \
-    vendor/amazon/omap4-common/proprietary/vendor/lib/libpvr2d_SGX544_112.so:/system/vendor/lib/libpvr2d_SGX544_112.so \
-    vendor/amazon/omap4-common/proprietary/vendor/lib/libpvrANDROID_WSEGL_SGX540_120.so:/system/vendor/lib/libpvrANDROID_WSEGL_SGX540_120.so \
-    vendor/amazon/omap4-common/proprietary/vendor/lib/libpvrANDROID_WSEGL_SGX544_112.so:/system/vendor/lib/libpvrANDROID_WSEGL_SGX544_112.so \
-    vendor/amazon/omap4-common/proprietary/vendor/lib/libPVRScopeServices_SGX540_120.so:/system/vendor/lib/libPVRScopeServices_SGX540_120.so \
-    vendor/amazon/omap4-common/proprietary/vendor/lib/libPVRScopeServices_SGX544_112.so:/system/vendor/lib/libPVRScopeServices_SGX544_112.so \
-    vendor/amazon/omap4-common/proprietary/vendor/lib/libsrv_init_SGX540_120.so:/system/vendor/lib/libsrv_init_SGX540_120.so \
-    vendor/amazon/omap4-common/proprietary/vendor/lib/libsrv_init_SGX544_112.so:/system/vendor/lib/libsrv_init_SGX544_112.so \
-    vendor/amazon/omap4-common/proprietary/vendor/lib/libsrv_um_SGX540_120.so:/system/vendor/lib/libsrv_um_SGX540_120.so \
-    vendor/amazon/omap4-common/proprietary/vendor/lib/libsrv_um_SGX544_112.so:/system/vendor/lib/libsrv_um_SGX544_112.so \
-    vendor/amazon/omap4-common/proprietary/vendor/lib/libusc_SGX540_120.so:/system/vendor/lib/libusc_SGX540_120.so \
-    vendor/amazon/omap4-common/proprietary/vendor/lib/libusc_SGX544_112.so:/system/vendor/lib/libusc_SGX544_112.so \
     vendor/amazon/omap4-common/proprietary/vendor/bin/pvrsrvinit:/system/vendor/bin/pvrsrvinit \
     vendor/amazon/omap4-common/proprietary/vendor/bin/pvrsrvctl_SGX540_120:/system/vendor/bin/pvrsrvctl_SGX540_120 \
     vendor/amazon/omap4-common/proprietary/vendor/bin/pvrsrvctl_SGX544_112:/system/vendor/bin/pvrsrvctl_SGX544_112 \
