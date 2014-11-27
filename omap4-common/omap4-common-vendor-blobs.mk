@@ -18,9 +18,6 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/omap4-common/proprietary/vendor/lib/hw/gralloc.omap4470.so:/system/vendor/lib/hw/gralloc.omap4470.so \
     vendor/amazon/omap4-common/proprietary/vendor/lib/hw/gralloc.omap4460.so:/system/vendor/lib/hw/gralloc.omap4460.so \
     vendor/amazon/omap4-common/proprietary/vendor/lib/hw/gralloc.omap4430.so:/system/vendor/lib/hw/gralloc.omap4430.so \
-    vendor/amazon/omap4-common/proprietary/vendor/bin/pvrsrvinit:/system/vendor/bin/pvrsrvinit \
-    vendor/amazon/omap4-common/proprietary/vendor/bin/pvrsrvctl_SGX540_120:/system/vendor/bin/pvrsrvctl_SGX540_120 \
-    vendor/amazon/omap4-common/proprietary/vendor/bin/pvrsrvctl_SGX544_112:/system/vendor/bin/pvrsrvctl_SGX544_112 \
     vendor/amazon/omap4-common/proprietary/etc/powervr.ini:/system/etc/powervr.ini
 
 
