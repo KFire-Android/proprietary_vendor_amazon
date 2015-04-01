@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<receiverFilterPolicy version="1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <!--
+         This XML config file allows one to specify packanges/activities to block from PackageManager.
+         Ope option is to block a <package> statically from showing up in PackageManager by specifying
+         package name as well as actions/mimetype to block. The use-case for this is to block the official
+         social-network 3P applications for those mimetype for which Amazon has matched functionality natively.
+
+         Another option is to block an <activity> dinamically from showing up in PackageManager.queryIntentActivities,
+         for a given endpiont. The use-case is to not allow certain Amazon social-network integration to be available
+         in some countries, depending on business/government regulations.
+    -->
+
+
+    <!-- Block the official Facebook app since Amazon offers similar functionality -->
+    <package name="com.facebook.katana">
+        <!--Suppress any activity intent filter trying to share text, images, audio or video -->
+        <receiver type="activity">
+             <action name="android.intent.action.SEND" />
+             <dataType type="text/plain" />
+             <dataType type="image/*" />
+             <dataType type="video/*" />
+             <dataType type="audio/*" />
+        </receiver>
+        <receiver type="activity">
+            <action name="android.intent.action.SEND_MULTIPLE" />
+            <dataType type="image/*" />
+        </receiver>
+    </package>
+
+    <!-- Block the official Twitter app since Amazon offers similar functionality -->
+    <package name="com.twitter.android">
+        <!--Suppress any activity intent filter trying to share images OR text -->
+        <receiver type="activity">
+             <action name="android.intent.action.SEND" />
+             <dataType type="text/plain" />
+             <dataType type="image/*" />
+        </receiver>
+    </package>
+
+    <!-- Block the Amazon-Facebook app in China - don't specify any <receiver> or we risk over-blocking -->
+    <activity name="com.amazon.unifiedshare.facebook.FacebookShareActivity">
+        <blockEndpoint name="identity-snds-cn.amazon.com" />
+    </activity>
+
+    <!-- Block the Amazon-Twitter app in China  - don't specify any <receiver> or we risk over-blocking -->
+    <activity name="com.amazon.unifiedshare.twitter.TwitterShareActivity">
+        <blockEndpoint name="identity-snds-cn.amazon.com" />
+    </activity>
+
+    <!-- Block the Amazon-SinaWeibo app outside China  - don't specify any <receiver> or we risk over-blocking -->
+    <activity name="com.amazon.unifiedshare.sinaweibo.SinaWeiboShareActivity">
+        <!-- List here all SNDS endpoints except the CN one -->
+        <blockEndpoint name="identity-snds.amazon.com" />
+        <blockEndpoint name="identity-snds-fe.amazon.com" />
+        <blockEndpoint name="identity-snds-eu.amazon.com" />
+    </activity>
+
+</receiverFilterPolicy>

@@ -1,0 +1,6 @@
+# Please add new device using the same format.
+# The comments begin with "#".
+device=apollo, size=1600x2560, density=320
+device=thor,   size=1200x1920, density=320
+device=soho,   size=800x1280,  density=240
+

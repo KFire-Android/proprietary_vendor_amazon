@@ -1,0 +1,9 @@
+{
+    "docProvidersDisabled" : true,
+    "allowProtectedBroadcasts" : true,
+    "remoteControlClientOverride" : true,
+    "wanNetworkInfoOverride" : true,
+    "resetInputStreamOverride" : true,
+    "videoViewCompatModeEnabled" : true,
+    "networkOnMainThreadOverride" : true
+}

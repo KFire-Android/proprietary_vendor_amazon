@@ -1,0 +1,68 @@
+#!/system/bin/sh
+
+# Script to start "display" on the device, which has a very rudimentary
+# shell.
+#
+usage() {
+    echo -e "usage: display [<device name>|reset]"
+    echo -e ""
+    echo -e "    <device name>: the name of device (e.g. apollo/thor/soho)"
+    echo -e "    reset: setting orignal value of display for this device."
+}
+
+# To change the size of display
+wm_size() {
+    echo "wm size $1"
+    wm size $1
+}
+
+# To change the density of display
+wm_density() {
+    echo "wm density $1"
+    wm density $1
+}
+
+if [ $# != 1 ]; then
+    usage
+    exit 1
+fi
+
+# reset the value of display to default.
+if [ "$1" == "reset" ]; then
+    wm_size reset
+    wm_density reset
+    exit 0
+fi
+
+# Get config file
+CONFIG_FILE=/etc/display_conf
+if [ ! -e $CONFIG_FILE ]; then
+    echo -e "The \"display_conf\" does not exist in the /etc directory."
+    exit 1
+fi
+
+# Parse config file and set value of display by wm command.
+while read line; do
+    comments=${line:0:1}
+    if [ "$comments" == "#" ]; then
+        continue;
+    fi
+
+    device=${line%%,*}
+    device=${device#*=}
+
+    size=${line%,*}
+    size=${size#*,}
+    size=${size#*=}
+
+    density=${line##*,}
+    density=${density#*=}
+
+    if [ "$device" == "$1" ]; then
+        wm_size $size
+        wm_density $density
+        exit 0
+    fi
+done < $CONFIG_FILE
+
+echo -e "\033[31mDO NOT support the $1 on this device!!!\033[0m"
