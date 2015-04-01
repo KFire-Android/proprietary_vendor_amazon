@@ -144,10 +144,6 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/thor/proprietary/etc/bcompat.manifest:system/etc/bcompat.manifest \
     vendor/amazon/thor/proprietary/etc/ad_calib.cfg:system/etc/ad_calib.cfg \
     vendor/amazon/thor/proprietary/etc/ReceiverFilterPolicy.xml:system/etc/ReceiverFilterPolicy.xml \
-    vendor/amazon/thor/proprietary/etc/wifi/wpa_supplicant_overlay.conf:system/etc/wifi/wpa_supplicant_overlay.conf \
-    vendor/amazon/thor/proprietary/etc/wifi/wpa_supplicant_ath6kl.conf:system/etc/wifi/wpa_supplicant_ath6kl.conf \
-    vendor/amazon/thor/proprietary/etc/wifi/p2p_supplicant_overlay.conf:system/etc/wifi/p2p_supplicant_overlay.conf \
-    vendor/amazon/thor/proprietary/etc/wifi/WCNSS_qcom_cfg.ini:system/etc/wifi/WCNSS_qcom_cfg.ini \
     vendor/amazon/thor/proprietary/etc/hostapd/hostapd_default.conf:system/etc/hostapd/hostapd_default.conf \
     vendor/amazon/thor/proprietary/etc/hostapd/hostapd.deny:system/etc/hostapd/hostapd.deny \
     vendor/amazon/thor/proprietary/etc/hostapd/hostapd.accept:system/etc/hostapd/hostapd.accept \
