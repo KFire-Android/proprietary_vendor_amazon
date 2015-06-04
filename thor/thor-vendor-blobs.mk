@@ -58,7 +58,6 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/thor/proprietary/bin/rfs_access:system/bin/rfs_access \
     vendor/amazon/thor/proprietary/bin/ptt_socket_app:system/bin/ptt_socket_app \
     vendor/amazon/thor/proprietary/bin/adsprpcd:system/bin/adsprpcd \
-    vendor/amazon/thor/proprietary/bin/cnd:system/bin/cnd \
     vendor/amazon/thor/proprietary/bin/display:system/bin/display \
     vendor/amazon/thor/proprietary/bin/ssr_diag:system/bin/ssr_diag \
     vendor/amazon/thor/proprietary/bin/get_emmcid.sh:system/bin/get_emmcid.sh \
@@ -106,8 +105,6 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/thor/proprietary/etc/vendor_service.conf:system/etc/vendor_service.conf \
     vendor/amazon/thor/proprietary/etc/usf_settings.sh:system/etc/usf_settings.sh \
     vendor/amazon/thor/proprietary/etc/usf_post_boot.sh:system/etc/usf_post_boot.sh \
-    vendor/amazon/thor/proprietary/etc/thermal-engine-thor.conf:system/etc/thermal-engine-thor.conf \
-    vendor/amazon/thor/proprietary/etc/thermal-engine-8974.conf:system/etc/thermal-engine-8974.conf \
     vendor/amazon/thor/proprietary/etc/sensor_def_qcomdev.conf:system/etc/sensor_def_qcomdev.conf \
     vendor/amazon/thor/proprietary/etc/sec_config:system/etc/sec_config \
     vendor/amazon/thor/proprietary/etc/sap.conf:system/etc/sap.conf \
@@ -119,18 +116,15 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/thor/proprietary/etc/lowi.conf:system/etc/lowi.conf \
     vendor/amazon/thor/proprietary/etc/kft_blacklist.conf:system/etc/kft_blacklist.conf \
     vendor/amazon/thor/proprietary/etc/izat.conf:system/etc/izat.conf \
-    vendor/amazon/thor/proprietary/etc/init.set_model.sh:system/etc/init.set_model.sh \
     vendor/amazon/thor/proprietary/etc/init.qcom.wifi.sh:system/etc/init.qcom.wifi.sh \
     vendor/amazon/thor/proprietary/etc/init.qcom.sdio.sh:system/etc/init.qcom.sdio.sh \
     vendor/amazon/thor/proprietary/etc/init.qcom.post_boot.sh:system/etc/init.qcom.post_boot.sh \
-    vendor/amazon/thor/proprietary/etc/init.qcom.modem_links.sh:system/etc/init.qcom.modem_links.sh \
     vendor/amazon/thor/proprietary/etc/init.qcom.fm.sh:system/etc/init.qcom.fm.sh \
     vendor/amazon/thor/proprietary/etc/init.qcom.efs.sync.sh:system/etc/init.qcom.efs.sync.sh \
     vendor/amazon/thor/proprietary/etc/init.qcom.coex.sh:system/etc/init.qcom.coex.sh \
     vendor/amazon/thor/proprietary/etc/init.qcom.bt.sh:system/etc/init.qcom.bt.sh \
     vendor/amazon/thor/proprietary/etc/init.qcom.audio.sh:system/etc/init.qcom.audio.sh \
     vendor/amazon/thor/proprietary/etc/init.crda.sh:system/etc/init.crda.sh \
-    vendor/amazon/thor/proprietary/etc/init.ath3k.bt.sh:system/etc/init.ath3k.bt.sh \
     vendor/amazon/thor/proprietary/etc/hsic.control.bt.sh:system/etc/hsic.control.bt.sh \
     vendor/amazon/thor/proprietary/etc/hcidump.sh:system/etc/hcidump.sh \
     vendor/amazon/thor/proprietary/etc/gps.conf:system/etc/gps.conf \
