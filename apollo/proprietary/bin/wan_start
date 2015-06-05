@@ -1,0 +1,19 @@
+#!/system/bin/sh
+
+feature_wan=/proc/product_features/wan
+
+if [ -e $feature_wan ]; then
+    insmod /system/lib/modules/bwan.ko
+    insmod /system/lib/modules/usbserial.ko
+    insmod /system/lib/modules/usb_wwan.ko
+    insmod /system/lib/modules/option.ko
+    insmod /system/lib/modules/rmnet_usb.ko
+
+    echo Y > /sys/module/rmnet_usb/parameters/rmnet_data_init
+
+    logcat -b radio -c
+    chown radio.radio /sys/wan/*
+    chmod 660 /sys/wan/*
+    start ril-daemon
+fi
+
