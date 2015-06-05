@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright (c) 2012-2013 Qualcomm Technologies, Inc.  All Rights Reserved. Qualcomm Technologies Proprietary and Confidential.-->
+<NsrmPolicy>
+  <Nsrm>
+    <!--The version of the NSRM software-->
+    <Version>1.1</Version>
+    <!--Length of time in seconds to keep gate open each time it is opened
+        valid values 1 to 24*60*60 seconds-->
+    <GateOpenTime>30</GateOpenTime>
+    <!--Time in seconds to wait before forcing gate open
+        valid values 1 to 24*60*60 seconds-->
+    <GateSyncTime>1200</GateSyncTime>
+    <!--Time in seconds to wait before releasing the queued sockets when the
+        emergency alert notification is received
+        EAQSRT stands for Emergency Alert Queued Socket Release Delay Time
+        valid values 1 to 24*60*60 seconds-->
+    <EAQSRDT>60</EAQSRDT>
+    <!--Mode to indicate how processes which share the same UID should be
+    handled-->
+    <SharedUIDMode>Conservative</SharedUIDMode>
+    <!--List of applications which to apply Nsrm to-->
+    <AppList Type="Exclusion">
+    </AppList>
+  </Nsrm>
+  <!-- The next element is for reference only to show how to config NSRM
+       parameters for another version that may be supported on the device -->
+  <!--
+  <Nsrm>
+    <Version>1.2</Version>
+    <GateOpenTime>32</GateOpenTime>
+    <GateSyncTime>1202</GateSyncTime>
+    <EAQSRDT>62</EAQSRDT>
+    <SharedUIDMode>Conservative</SharedUIDMode>
+    <AppList Type="Exclusion">
+    </AppList>
+  </Nsrm>
+  -->
+</NsrmPolicy>
