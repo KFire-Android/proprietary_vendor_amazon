@@ -268,7 +268,6 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/thor/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
     vendor/amazon/thor/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
     vendor/amazon/thor/proprietary/vendor/lib/drm/libdrmprplugin.so:system/vendor/lib/drm/libdrmprplugin.so \
-    vendor/amazon/thor/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
     vendor/amazon/thor/proprietary/vendor/lib/libgessockadapter.so:system/vendor/lib/libgessockadapter.so \
     vendor/amazon/thor/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     vendor/amazon/thor/proprietary/vendor/lib/libqmi_cci.so:system/vendor/lib/libqmi_cci.so \
@@ -450,10 +449,6 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/thor/proprietary/vendor/lib/libscve.so:system/vendor/lib/libscve.so \
     vendor/amazon/thor/proprietary/vendor/lib/libsc-a2xx.so:system/vendor/lib/libsc-a2xx.so \
     vendor/amazon/thor/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
-    vendor/amazon/thor/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
-    vendor/amazon/thor/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
-    vendor/amazon/thor/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
-    vendor/amazon/thor/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
     vendor/amazon/thor/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
     vendor/amazon/thor/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
     vendor/amazon/thor/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
