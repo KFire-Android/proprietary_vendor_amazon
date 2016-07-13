@@ -410,6 +410,7 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/apollo/proprietary/vendor/lib/libchromatix_skuab_shinetech_gc0339_common.so:system/vendor/lib/libchromatix_skuab_shinetech_gc0339_common.so \
     vendor/amazon/apollo/proprietary/vendor/lib/libchromatix_skuab_shinetech_gc0339_default_video.so:system/vendor/lib/libchromatix_skuab_shinetech_gc0339_default_video.so \
     vendor/amazon/apollo/proprietary/vendor/lib/libchromatix_skuab_shinetech_gc0339_preview.so:system/vendor/lib/libchromatix_skuab_shinetech_gc0339_preview.so \
+    vendor/amazon/apollo/proprietary/vendor/lib/libqc-opt.so:system/vendor/lib/libqc-opt.so \
     vendor/amazon/apollo/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
     vendor/amazon/apollo/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
     vendor/amazon/apollo/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
