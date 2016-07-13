@@ -84,7 +84,6 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/thor/proprietary/bin/qseecom_sample_client:system/bin/qseecom_sample_client \
     vendor/amazon/thor/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/amazon/thor/proprietary/bin/qseecom_security_test:system/bin/qseecom_security_test \
-    vendor/amazon/thor/proprietary/bin/qseecomd_static:system/bin/qseecomd_static \
     vendor/amazon/thor/proprietary/bin/radish:system/bin/radish \
     vendor/amazon/thor/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/amazon/thor/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \

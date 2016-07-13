@@ -84,7 +84,6 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/apollo/proprietary/bin/qseecom_sample_client:system/bin/qseecom_sample_client \
     vendor/amazon/apollo/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/amazon/apollo/proprietary/bin/qseecom_security_test:system/bin/qseecom_security_test \
-    vendor/amazon/apollo/proprietary/bin/qseecomd_static:system/bin/qseecomd_static \
     vendor/amazon/apollo/proprietary/bin/radish:system/bin/radish \
     vendor/amazon/apollo/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/amazon/apollo/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
