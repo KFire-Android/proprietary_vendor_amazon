@@ -186,7 +186,6 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/apollo/proprietary/lib/hw/camera.msm8974.so:system/lib/hw/camera.msm8974.so \
     vendor/amazon/apollo/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/amazon/apollo/proprietary/lib/libgpu.cr.so:system/lib/libgpu.cr.so \
-    vendor/amazon/apollo/proprietary/vendor/lib/libbt-vendor.so:system/vendor/lib/libbt-vendor.so \
     vendor/amazon/apollo/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
     vendor/amazon/apollo/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
     vendor/amazon/apollo/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \

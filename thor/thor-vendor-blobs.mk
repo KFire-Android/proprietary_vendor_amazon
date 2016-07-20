@@ -186,7 +186,6 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/thor/proprietary/lib/hw/camera.msm8974.so:system/lib/hw/camera.msm8974.so \
     vendor/amazon/thor/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/amazon/thor/proprietary/lib/libgpu.cr.so:system/lib/libgpu.cr.so \
-    vendor/amazon/thor/proprietary/vendor/lib/libbt-vendor.so:system/vendor/lib/libbt-vendor.so \
     vendor/amazon/thor/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
     vendor/amazon/thor/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
     vendor/amazon/thor/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
