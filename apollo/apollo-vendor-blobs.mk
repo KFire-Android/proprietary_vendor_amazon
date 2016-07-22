@@ -426,9 +426,9 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/apollo/proprietary/etc/firmware/ar3k/1020201/RamPatch.txt:system/etc/firmware/ar3k/1020201/RamPatch.txt \
     vendor/amazon/apollo/proprietary/etc/firmware/ar3k/1020201/PS_ASIC.pst:system/etc/firmware/ar3k/1020201/PS_ASIC.pst \
     vendor/amazon/apollo/proprietary/etc/firmware/a330_pfp.fw:system/etc/firmware/a330_pfp.fw \
-    vendor/amazon/apollo/proprietary/etc/firmware/ath6k/AR6004/hw1.3/bdata.bin_usb:system/etc/firmware/ath6k/AR6004/hw1.3/bdata.bin \
-    vendor/amazon/apollo/proprietary/etc/firmware/ath6k/AR6004/hw1.3/fw.ram.bin_usb:system/etc/firmware/ath6k/AR6004/hw1.3/fw.ram.bin \
-    vendor/amazon/apollo/proprietary/etc/firmware/ath6k/AR6004/hw3.0/boardData_Apollo_FCC.bin:system/etc/firmware/ath6k/AR6004/hw3.0/bdata.bin \
+    vendor/amazon/apollo/proprietary/etc/firmware/ath6k/AR6004/hw1.3/bdata.bin:system/etc/firmware/ath6k/AR6004/hw1.3/bdata.bin \
+    vendor/amazon/apollo/proprietary/etc/firmware/ath6k/AR6004/hw1.3/fw.ram.bin:system/etc/firmware/ath6k/AR6004/hw1.3/fw.ram.bin \
+    vendor/amazon/apollo/proprietary/etc/firmware/ath6k/AR6004/hw3.0/bdata.bin:system/etc/firmware/ath6k/AR6004/hw3.0/bdata.bin \
     vendor/amazon/apollo/proprietary/etc/firmware/ath6k/AR6004/hw3.0/boardData_Apollo_ETSI_WAN.bin:system/etc/firmware/ath6k/AR6004/hw3.0/boardData_Apollo_ETSI_WAN.bin \
     vendor/amazon/apollo/proprietary/etc/firmware/ath6k/AR6004/hw3.0/boardData_Apollo_ETSI.bin:system/etc/firmware/ath6k/AR6004/hw3.0/boardData_Apollo_ETSI.bin \
     vendor/amazon/apollo/proprietary/etc/firmware/ath6k/AR6004/hw3.0/fw.ram.bin:system/etc/firmware/ath6k/AR6004/hw3.0/fw.ram.bin \
