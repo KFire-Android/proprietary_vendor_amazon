@@ -268,7 +268,6 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/thor/proprietary/vendor/lib/lib-imsdpl.so:system/vendor/lib/lib-imsdpl.so \
     vendor/amazon/thor/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
     vendor/amazon/thor/proprietary/vendor/lib/libmmgesture-bus2.so:system/vendor/lib/libmmgesture-bus2.so \
-    vendor/amazon/thor/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
     vendor/amazon/thor/proprietary/vendor/lib/libtzdrmgenprov.so:system/vendor/lib/libtzdrmgenprov.so \
     vendor/amazon/thor/proprietary/vendor/lib/libloc_xtra.so:system/vendor/lib/libloc_xtra.so \
     vendor/amazon/thor/proprietary/vendor/lib/lib-imsvt.so:system/vendor/lib/lib-imsvt.so \
