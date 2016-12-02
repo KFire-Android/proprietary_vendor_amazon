@@ -59,7 +59,6 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/thor/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     vendor/amazon/thor/proprietary/bin/display:system/bin/display \
     vendor/amazon/thor/proprietary/bin/ssr_diag:system/bin/ssr_diag \
-    vendor/amazon/thor/proprietary/bin/get_emmcid.sh:system/bin/get_emmcid.sh \
     vendor/amazon/thor/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
     vendor/amazon/thor/proprietary/bin/ath6kl-service:system/bin/ath6kl-service \
     vendor/amazon/thor/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
