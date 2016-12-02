@@ -59,7 +59,6 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/apollo/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     vendor/amazon/apollo/proprietary/bin/display:system/bin/display \
     vendor/amazon/apollo/proprietary/bin/ssr_diag:system/bin/ssr_diag \
-    vendor/amazon/apollo/proprietary/bin/get_emmcid.sh:system/bin/get_emmcid.sh \
     vendor/amazon/apollo/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
     vendor/amazon/apollo/proprietary/bin/ath6kl-service:system/bin/ath6kl-service \
     vendor/amazon/apollo/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
