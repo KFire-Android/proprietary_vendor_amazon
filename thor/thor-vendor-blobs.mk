@@ -57,9 +57,7 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/thor/proprietary/bin/rfs_access:system/bin/rfs_access \
     vendor/amazon/thor/proprietary/bin/ptt_socket_app:system/bin/ptt_socket_app \
     vendor/amazon/thor/proprietary/bin/adsprpcd:system/bin/adsprpcd \
-    vendor/amazon/thor/proprietary/bin/display:system/bin/display \
     vendor/amazon/thor/proprietary/bin/ssr_diag:system/bin/ssr_diag \
-    vendor/amazon/thor/proprietary/bin/get_emmcid.sh:system/bin/get_emmcid.sh \
     vendor/amazon/thor/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
     vendor/amazon/thor/proprietary/bin/ath6kl-service:system/bin/ath6kl-service \
     vendor/amazon/thor/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
@@ -92,7 +90,6 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/thor/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/amazon/thor/proprietary/bin/usbhub:system/bin/usbhub \
     vendor/amazon/thor/proprietary/bin/usbhub_init:system/bin/usbhub_init \
-    vendor/amazon/thor/proprietary/etc/bluetooth/auto_pair_devlist.conf:system/etc/bluetooth/auto_pair_devlist.conf \
     vendor/amazon/thor/proprietary/etc/bluetooth/bt_stack.conf:system/etc/bluetooth/bt_stack.conf \
     vendor/amazon/thor/proprietary/etc/bluetooth/bt_did.conf:system/etc/bluetooth/bt_did.conf \
     vendor/amazon/thor/proprietary/etc/bluetooth/bt_stack_rel.conf:system/etc/bluetooth/bt_stack_rel.conf \
@@ -111,9 +108,7 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/thor/proprietary/etc/qca6234-service.sh:system/etc/qca6234-service.sh \
     vendor/amazon/thor/proprietary/etc/msap.conf:system/etc/msap.conf \
     vendor/amazon/thor/proprietary/etc/monitoring.conf:system/etc/monitoring.conf \
-    vendor/amazon/thor/proprietary/etc/lowi.conf:system/etc/lowi.conf \
     vendor/amazon/thor/proprietary/etc/kft_blacklist.conf:system/etc/kft_blacklist.conf \
-    vendor/amazon/thor/proprietary/etc/izat.conf:system/etc/izat.conf \
     vendor/amazon/thor/proprietary/etc/init.qcom.wifi.sh:system/etc/init.qcom.wifi.sh \
     vendor/amazon/thor/proprietary/etc/init.qcom.sdio.sh:system/etc/init.qcom.sdio.sh \
     vendor/amazon/thor/proprietary/etc/init.qcom.post_boot.sh:system/etc/init.qcom.post_boot.sh \
@@ -125,10 +120,7 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/thor/proprietary/etc/init.crda.sh:system/etc/init.crda.sh \
     vendor/amazon/thor/proprietary/etc/hsic.control.bt.sh:system/etc/hsic.control.bt.sh \
     vendor/amazon/thor/proprietary/etc/hcidump.sh:system/etc/hcidump.sh \
-    vendor/amazon/thor/proprietary/etc/gps.conf:system/etc/gps.conf \
-    vendor/amazon/thor/proprietary/etc/flp.conf:system/etc/flp.conf \
     vendor/amazon/thor/proprietary/etc/fdrw_default.conf:system/etc/fdrw_default.conf \
-    vendor/amazon/thor/proprietary/etc/display_conf:system/etc/display_conf \
     vendor/amazon/thor/proprietary/etc/chronos.conf:system/etc/chronos.conf \
     vendor/amazon/thor/proprietary/etc/carrier.xml:system/etc/carrier.xml \
     vendor/amazon/thor/proprietary/etc/capability.xml:system/etc/capability.xml \
@@ -142,11 +134,6 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/thor/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
     vendor/amazon/thor/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
     vendor/amazon/thor/proprietary/etc/cne/NsrmConfiguration.xml:system/etc/cne/NsrmConfiguration.xml \
-    vendor/amazon/thor/proprietary/etc/bluetooth/network.conf:system/etc/bluetooth/network.conf \
-    vendor/amazon/thor/proprietary/etc/bluetooth/main.conf:system/etc/bluetooth/main.conf \
-    vendor/amazon/thor/proprietary/etc/bluetooth/input.conf:system/etc/bluetooth/input.conf \
-    vendor/amazon/thor/proprietary/etc/bluetooth/blacklist.conf:system/etc/bluetooth/blacklist.conf \
-    vendor/amazon/thor/proprietary/etc/bluetooth/auto_pairing.conf:system/etc/bluetooth/auto_pairing.conf \
     vendor/amazon/thor/proprietary/etc/acdbdata/THOR/Speaker_cal.acdb:system/etc/acdbdata/THOR/Speaker_cal.acdb \
     vendor/amazon/thor/proprietary/etc/acdbdata/THOR/Headset_cal.acdb:system/etc/acdbdata/THOR/Headset_cal.acdb \
     vendor/amazon/thor/proprietary/etc/acdbdata/THOR/Hdmi_cal.acdb:system/etc/acdbdata/THOR/Hdmi_cal.acdb \
@@ -161,26 +148,6 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/thor/proprietary/etc/acdbdata/MTP/MTP_Global_cal.acdb:system/etc/acdbdata/MTP/MTP_Global_cal.acdb \
     vendor/amazon/thor/proprietary/etc/acdbdata/MTP/MTP_General_cal.acdb:system/etc/acdbdata/MTP/MTP_General_cal.acdb \
     vendor/amazon/thor/proprietary/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
-    vendor/amazon/thor/proprietary/etc/acdbdata/Liquid/Liquid_Speaker_cal.acdb:system/etc/acdbdata/Liquid/Liquid_Speaker_cal.acdb \
-    vendor/amazon/thor/proprietary/etc/acdbdata/Liquid/Liquid_Headset_cal.acdb:system/etc/acdbdata/Liquid/Liquid_Headset_cal.acdb \
-    vendor/amazon/thor/proprietary/etc/acdbdata/Liquid/Liquid_Hdmi_cal.acdb:system/etc/acdbdata/Liquid/Liquid_Hdmi_cal.acdb \
-    vendor/amazon/thor/proprietary/etc/acdbdata/Liquid/Liquid_Handset_cal.acdb:system/etc/acdbdata/Liquid/Liquid_Handset_cal.acdb \
-    vendor/amazon/thor/proprietary/etc/acdbdata/Liquid/Liquid_Global_cal.acdb:system/etc/acdbdata/Liquid/Liquid_Global_cal.acdb \
-    vendor/amazon/thor/proprietary/etc/acdbdata/Liquid/Liquid_General_cal.acdb:system/etc/acdbdata/Liquid/Liquid_General_cal.acdb \
-    vendor/amazon/thor/proprietary/etc/acdbdata/Liquid/Liquid_Bluetooth_cal.acdb:system/etc/acdbdata/Liquid/Liquid_Bluetooth_cal.acdb \
-    vendor/amazon/thor/proprietary/etc/acdbdata/Fluid/Fluid_Speaker_cal.acdb:system/etc/acdbdata/Fluid/Fluid_Speaker_cal.acdb \
-    vendor/amazon/thor/proprietary/etc/acdbdata/Fluid/Fluid_Headset_cal.acdb:system/etc/acdbdata/Fluid/Fluid_Headset_cal.acdb \
-    vendor/amazon/thor/proprietary/etc/acdbdata/Fluid/Fluid_Hdmi_cal.acdb:system/etc/acdbdata/Fluid/Fluid_Hdmi_cal.acdb \
-    vendor/amazon/thor/proprietary/etc/acdbdata/Fluid/Fluid_Handset_cal.acdb:system/etc/acdbdata/Fluid/Fluid_Handset_cal.acdb \
-    vendor/amazon/thor/proprietary/etc/acdbdata/Fluid/Fluid_Global_cal.acdb:system/etc/acdbdata/Fluid/Fluid_Global_cal.acdb \
-    vendor/amazon/thor/proprietary/etc/acdbdata/Fluid/Fluid_General_cal.acdb:system/etc/acdbdata/Fluid/Fluid_General_cal.acdb \
-    vendor/amazon/thor/proprietary/etc/acdbdata/Fluid/Fluid_Bluetooth_cal.acdb:system/etc/acdbdata/Fluid/Fluid_Bluetooth_cal.acdb \
-    vendor/amazon/thor/proprietary/usr/keylayout/synaptics_rmi4_i2c.kl:system/usr/keylayout/synaptics_rmi4_i2c.kl \
-    vendor/amazon/thor/proprietary/usr/keylayout/msm8974-taiko-tablet-snd-card_JACK.kl:system/usr/keylayout/msm8974-taiko-tablet-snd-card_JACK.kl \
-    vendor/amazon/thor/proprietary/usr/keylayout/gpio-keys.kl:system/usr/keylayout/gpio-keys.kl \
-    vendor/amazon/thor/proprietary/usr/keylayout/atmel_mxt_ts.kl:system/usr/keylayout/atmel_mxt_ts.kl \
-    vendor/amazon/thor/proprietary/usr/keylayout/Vendor_1949_Product_0402.kl:system/usr/keylayout/Vendor_1949_Product_0402.kl \
-    vendor/amazon/thor/proprietary/usr/idc/amazon_touch.idc:system/usr/idc/amazon_touch.idc \
     vendor/amazon/thor/proprietary/lib/libril-lab126qmi.so:system/lib/libril-lab126qmi.so \
     vendor/amazon/thor/proprietary/lib/hw/keystore.amzn.qcom.so:system/lib/hw/keystore.amzn.qcom.so \
     vendor/amazon/thor/proprietary/lib/hw/camera.msm8974.so:system/lib/hw/camera.msm8974.so \
