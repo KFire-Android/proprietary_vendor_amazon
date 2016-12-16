@@ -151,6 +151,7 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/apollo/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/amazon/apollo/proprietary/lib/libgpu.cr.so:system/lib/libgpu.cr.so \
     vendor/amazon/apollo/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
+    vendor/amazon/apollo/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
     vendor/amazon/apollo/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
     vendor/amazon/apollo/proprietary/vendor/lib/libxtadapter.so:system/vendor/lib/libxtadapter.so \
     vendor/amazon/apollo/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
@@ -372,31 +373,31 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/apollo/proprietary/vendor/lib/libchromatix_skuab_shinetech_gc0339_preview.so:system/vendor/lib/libchromatix_skuab_shinetech_gc0339_preview.so \
     vendor/amazon/apollo/proprietary/vendor/lib/libqc-opt.so:system/vendor/lib/libqc-opt.so \
     vendor/amazon/apollo/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
-    vendor/amazon/apollo/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
     vendor/amazon/apollo/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
-    vendor/amazon/apollo/proprietary/etc/firmware/wlan/prima/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
-    vendor/amazon/apollo/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
-    vendor/amazon/apollo/proprietary/etc/firmware/venus.b02:system/etc/firmware/venus.b02 \
     vendor/amazon/apollo/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
-    vendor/amazon/apollo/proprietary/etc/firmware/venus.b03:system/etc/firmware/venus.b03 \
-    vendor/amazon/apollo/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
-    vendor/amazon/apollo/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
-    vendor/amazon/apollo/proprietary/etc/firmware/a330_pm4.fw:system/etc/firmware/a330_pm4.fw \
-    vendor/amazon/apollo/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
-    vendor/amazon/apollo/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
-    vendor/amazon/apollo/proprietary/etc/firmware/venus.b01:system/etc/firmware/venus.b01 \
-    vendor/amazon/apollo/proprietary/etc/firmware/ar3k/1020201/RamPatch.txt:system/etc/firmware/ar3k/1020201/RamPatch.txt \
-    vendor/amazon/apollo/proprietary/etc/firmware/ar3k/1020201/PS_ASIC.pst:system/etc/firmware/ar3k/1020201/PS_ASIC.pst \
+    vendor/amazon/apollo/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
+    vendor/amazon/apollo/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
     vendor/amazon/apollo/proprietary/etc/firmware/a330_pfp.fw:system/etc/firmware/a330_pfp.fw \
+    vendor/amazon/apollo/proprietary/etc/firmware/a330_pm4.fw:system/etc/firmware/a330_pm4.fw \
+    vendor/amazon/apollo/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
+    vendor/amazon/apollo/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
+    vendor/amazon/apollo/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
+    vendor/amazon/apollo/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
+    vendor/amazon/apollo/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
+    vendor/amazon/apollo/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
+    vendor/amazon/apollo/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
+    vendor/amazon/apollo/proprietary/etc/firmware/venus.b00:system/etc/firmware/venus.b00 \
+    vendor/amazon/apollo/proprietary/etc/firmware/venus.b01:system/etc/firmware/venus.b01 \
+    vendor/amazon/apollo/proprietary/etc/firmware/venus.b02:system/etc/firmware/venus.b02 \
+    vendor/amazon/apollo/proprietary/etc/firmware/venus.b03:system/etc/firmware/venus.b03 \
+    vendor/amazon/apollo/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
+    vendor/amazon/apollo/proprietary/etc/firmware/ar3k/1020201/PS_ASIC.pst:system/etc/firmware/ar3k/1020201/PS_ASIC.pst \
+    vendor/amazon/apollo/proprietary/etc/firmware/ar3k/1020201/RamPatch.txt:system/etc/firmware/ar3k/1020201/RamPatch.txt \
     vendor/amazon/apollo/proprietary/etc/firmware/ath6k/AR6004/hw1.3/bdata.bin:system/etc/firmware/ath6k/AR6004/hw1.3/bdata.bin \
     vendor/amazon/apollo/proprietary/etc/firmware/ath6k/AR6004/hw1.3/fw.ram.bin:system/etc/firmware/ath6k/AR6004/hw1.3/fw.ram.bin \
     vendor/amazon/apollo/proprietary/etc/firmware/ath6k/AR6004/hw3.0/bdata.bin:system/etc/firmware/ath6k/AR6004/hw3.0/bdata.bin \
-    vendor/amazon/apollo/proprietary/etc/firmware/ath6k/AR6004/hw3.0/boardData_Apollo_ETSI_WAN.bin:system/etc/firmware/ath6k/AR6004/hw3.0/boardData_Apollo_ETSI_WAN.bin \
     vendor/amazon/apollo/proprietary/etc/firmware/ath6k/AR6004/hw3.0/boardData_Apollo_ETSI.bin:system/etc/firmware/ath6k/AR6004/hw3.0/boardData_Apollo_ETSI.bin \
-    vendor/amazon/apollo/proprietary/etc/firmware/ath6k/AR6004/hw3.0/fw.ram.bin:system/etc/firmware/ath6k/AR6004/hw3.0/fw.ram.bin \
+    vendor/amazon/apollo/proprietary/etc/firmware/ath6k/AR6004/hw3.0/boardData_Apollo_ETSI_WAN.bin:system/etc/firmware/ath6k/AR6004/hw3.0/boardData_Apollo_ETSI_WAN.bin \
     vendor/amazon/apollo/proprietary/etc/firmware/ath6k/AR6004/hw3.0/boardData_Apollo_FCC_WAN.bin:system/etc/firmware/ath6k/AR6004/hw3.0/boardData_Apollo_FCC_WAN.bin \
-    vendor/amazon/apollo/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
-    vendor/amazon/apollo/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
-    vendor/amazon/apollo/proprietary/etc/firmware/venus.b00:system/etc/firmware/venus.b00 \
-    vendor/amazon/apollo/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
-    vendor/amazon/apollo/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw
+    vendor/amazon/apollo/proprietary/etc/firmware/ath6k/AR6004/hw3.0/fw.ram.bin:system/etc/firmware/ath6k/AR6004/hw3.0/fw.ram.bin \
+    vendor/amazon/apollo/proprietary/etc/firmware/wlan/prima/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat
