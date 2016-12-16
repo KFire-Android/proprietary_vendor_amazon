@@ -90,9 +90,6 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/apollo/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/amazon/apollo/proprietary/bin/usbhub:system/bin/usbhub \
     vendor/amazon/apollo/proprietary/bin/usbhub_init:system/bin/usbhub_init \
-    vendor/amazon/apollo/proprietary/etc/bluetooth/bt_stack.conf:system/etc/bluetooth/bt_stack.conf \
-    vendor/amazon/apollo/proprietary/etc/bluetooth/bt_did.conf:system/etc/bluetooth/bt_did.conf \
-    vendor/amazon/apollo/proprietary/etc/bluetooth/bt_stack_rel.conf:system/etc/bluetooth/bt_stack_rel.conf \
     vendor/amazon/apollo/proprietary/etc/xtwifi.conf:system/etc/xtwifi.conf \
     vendor/amazon/apollo/proprietary/etc/xtra_root_cert.pem:system/etc/xtra_root_cert.pem \
     vendor/amazon/apollo/proprietary/etc/wfdconfigsink.xml:system/etc/wfdconfigsink.xml \
@@ -154,7 +151,6 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/apollo/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/amazon/apollo/proprietary/lib/libgpu.cr.so:system/lib/libgpu.cr.so \
     vendor/amazon/apollo/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
-    vendor/amazon/apollo/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
     vendor/amazon/apollo/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
     vendor/amazon/apollo/proprietary/vendor/lib/libxtadapter.so:system/vendor/lib/libxtadapter.so \
     vendor/amazon/apollo/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
