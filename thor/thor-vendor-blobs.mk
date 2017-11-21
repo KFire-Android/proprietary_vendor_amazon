@@ -50,7 +50,8 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/thor/proprietary/bin/gpsone_daemon:system/bin/gpsone_daemon \
     vendor/amazon/thor/proprietary/bin/qmiproxy:system/bin/qmiproxy \
     vendor/amazon/thor/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
-    vendor/amazon/thor/proprietary/bin/ftmdaemon:system/bin/ftmdaemon \
+    vendor/amazon/thor/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
+    vendor/amazon/thor/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
     vendor/amazon/thor/proprietary/bin/dun-server:system/bin/dun-server \
     vendor/amazon/thor/proprietary/bin/sapd:system/bin/sapd \
     vendor/amazon/thor/proprietary/bin/abtfilt:system/bin/abtfilt \
@@ -107,7 +108,6 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/thor/proprietary/etc/monitoring.conf:system/etc/monitoring.conf \
     vendor/amazon/thor/proprietary/etc/kft_blacklist.conf:system/etc/kft_blacklist.conf \
     vendor/amazon/thor/proprietary/etc/init.qcom.wifi.sh:system/etc/init.qcom.wifi.sh \
-    vendor/amazon/thor/proprietary/etc/init.qcom.sdio.sh:system/etc/init.qcom.sdio.sh \
     vendor/amazon/thor/proprietary/etc/init.qcom.post_boot.sh:system/etc/init.qcom.post_boot.sh \
     vendor/amazon/thor/proprietary/etc/init.qcom.fm.sh:system/etc/init.qcom.fm.sh \
     vendor/amazon/thor/proprietary/etc/init.qcom.efs.sync.sh:system/etc/init.qcom.efs.sync.sh \
@@ -291,6 +291,8 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/thor/proprietary/vendor/lib/lib-rtpsl.so:system/vendor/lib/lib-rtpsl.so \
     vendor/amazon/thor/proprietary/vendor/lib/libtzplayready.so:system/vendor/lib/libtzplayready.so \
     vendor/amazon/thor/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
+    vendor/amazon/thor/proprietary/vendor/lib/libcnefeatureconfig.so:system/vendor/lib/libcnefeatureconfig.so \
+    vendor/amazon/thor/proprietary/vendor/lib/libstlport.so:system/vendor/lib/libstlport.so \
     vendor/amazon/thor/proprietary/vendor/lib/libmmcamera_arrow_eeprom.so:system/vendor/lib/libmmcamera_arrow_eeprom.so \
     vendor/amazon/thor/proprietary/vendor/lib/libmmcamera_cac_lib.so:system/vendor/lib/libmmcamera_cac_lib.so \
     vendor/amazon/thor/proprietary/vendor/lib/libmmcamera_faceproc.so:system/vendor/lib/libmmcamera_faceproc.so \
