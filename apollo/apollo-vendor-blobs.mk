@@ -50,7 +50,8 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/apollo/proprietary/bin/gpsone_daemon:system/bin/gpsone_daemon \
     vendor/amazon/apollo/proprietary/bin/qmiproxy:system/bin/qmiproxy \
     vendor/amazon/apollo/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
-    vendor/amazon/apollo/proprietary/bin/ftmdaemon:system/bin/ftmdaemon \
+    vendor/amazon/apollo/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
+    vendor/amazon/apollo/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
     vendor/amazon/apollo/proprietary/bin/dun-server:system/bin/dun-server \
     vendor/amazon/apollo/proprietary/bin/sapd:system/bin/sapd \
     vendor/amazon/apollo/proprietary/bin/abtfilt:system/bin/abtfilt \
@@ -107,7 +108,6 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/apollo/proprietary/etc/monitoring.conf:system/etc/monitoring.conf \
     vendor/amazon/apollo/proprietary/etc/kft_blacklist.conf:system/etc/kft_blacklist.conf \
     vendor/amazon/apollo/proprietary/etc/init.qcom.wifi.sh:system/etc/init.qcom.wifi.sh \
-    vendor/amazon/apollo/proprietary/etc/init.qcom.sdio.sh:system/etc/init.qcom.sdio.sh \
     vendor/amazon/apollo/proprietary/etc/init.qcom.post_boot.sh:system/etc/init.qcom.post_boot.sh \
     vendor/amazon/apollo/proprietary/etc/init.qcom.fm.sh:system/etc/init.qcom.fm.sh \
     vendor/amazon/apollo/proprietary/etc/init.qcom.efs.sync.sh:system/etc/init.qcom.efs.sync.sh \
@@ -291,6 +291,8 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/apollo/proprietary/vendor/lib/lib-rtpsl.so:system/vendor/lib/lib-rtpsl.so \
     vendor/amazon/apollo/proprietary/vendor/lib/libtzplayready.so:system/vendor/lib/libtzplayready.so \
     vendor/amazon/apollo/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
+    vendor/amazon/apollo/proprietary/vendor/lib/libcnefeatureconfig.so:system/vendor/lib/libcnefeatureconfig.so \
+    vendor/amazon/apollo/proprietary/vendor/lib/libstlport.so:system/vendor/lib/libstlport.so \
     vendor/amazon/apollo/proprietary/vendor/lib/libmmcamera_arrow_eeprom.so:system/vendor/lib/libmmcamera_arrow_eeprom.so \
     vendor/amazon/apollo/proprietary/vendor/lib/libmmcamera_cac_lib.so:system/vendor/lib/libmmcamera_cac_lib.so \
     vendor/amazon/apollo/proprietary/vendor/lib/libmmcamera_faceproc.so:system/vendor/lib/libmmcamera_faceproc.so \
