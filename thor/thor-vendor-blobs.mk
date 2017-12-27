@@ -141,7 +141,6 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/thor/proprietary/etc/init.qcom.efs.sync.sh:system/etc/init.qcom.efs.sync.sh \
     vendor/amazon/thor/proprietary/etc/init.qcom.fm.sh:system/etc/init.qcom.fm.sh \
     vendor/amazon/thor/proprietary/etc/init.qcom.post_boot.sh:system/etc/init.qcom.post_boot.sh \
-    vendor/amazon/thor/proprietary/etc/init.qcom.sdio.sh:system/etc/init.qcom.sdio.sh \
     vendor/amazon/thor/proprietary/etc/init.qcom.wifi.sh:system/etc/init.qcom.wifi.sh \
     vendor/amazon/thor/proprietary/etc/kft_blacklist.conf:system/etc/kft_blacklist.conf \
     vendor/amazon/thor/proprietary/etc/monitoring.conf:system/etc/monitoring.conf \
